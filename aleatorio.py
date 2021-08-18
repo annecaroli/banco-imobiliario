@@ -16,6 +16,4 @@ class Aleatorio(Players):
         if self.budget >= prop.c_sale and random.uniform(0, 1) >= 0.50:
             return True
         else:
-            print(super().has_budget())
-            print(prop.c_sale)
             return False

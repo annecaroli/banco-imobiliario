@@ -4,7 +4,7 @@ import random
 class Property:
     def __init__(self, name):
         self.name = name
-        self.c_sale = random.randrange(50, 200, 10)
+        self.c_sale = random.randrange(100, 250, 10)
         self.c_rent = int(0.3 * self.c_sale)
         self.has_owner = False
         self.owner = ''
